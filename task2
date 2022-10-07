@@ -1,10 +1,10 @@
 from subprocess import call
 import sys
-import os
 import glob
 import filecmp
 import schedule
 import time
+import shutil
 
 
 def check(path1, path2, path3):
@@ -17,7 +17,7 @@ def check(path1, path2, path3):
     else:
         files = glob.glob(path2 + "\\" + '*')
         for f in files:
-            os.remove(f)
+            shutil.rmtree(f)
     print("Files from: " + path1 + " sent to: " + path2, file=open(path3, 'a'))
     try:
         call(["robocopy", path1, path2, "/MIR"])
