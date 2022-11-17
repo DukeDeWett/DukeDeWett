@@ -5,4 +5,4 @@ I also have basic knowledge about SQL, HTML, CSS, JS, Postman, Jira and I've use
 You can reach me in the 3 ways:<br />
 E-mail: wieczorek9@poczta.onet.pl<br />
 Phone number: +48 511 206 787<br />
-Linkedin profile: https://www.linkedin.com/in/norbert-wieczorek-315353220/<br />
+Linkedin profile: https://www.linkedin.com/in/norbert-wieczorek/<br />
